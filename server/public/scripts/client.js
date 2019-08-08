@@ -34,7 +34,7 @@ function getInventory() {
 
 function render(response) {
     const listOfInventory = response;
-    $('js-inventoryTableBody').empty();
+    $('#js-inventoryTableBody').empty();
     for (let inventory of listOfInventory) {
         $('#js-inventoryTableBody').append(`
          <tr>

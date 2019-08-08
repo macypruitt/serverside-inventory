@@ -4,7 +4,11 @@
   "description": "Server Side Inventory == Tech: JQuery, Node, Express, AJAX --- In this project we'll create a project that tracks an inventory on the server.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "node server/server.js"
+    },
   },
   "keywords": [],
   "author": "",
